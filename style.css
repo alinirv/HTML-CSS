@@ -1,0 +1,134 @@
+body{
+    margin:0px;
+    background-color: hsla(187, 93%, 83%, 0.918);                
+}
+/*Desctop*/ 
+@media screen and (min-width: 576px)
+{
+    table,th,td{
+        border: 1px  solid rgb(2, 100, 104);
+        border-collapse: collapse;
+        text-align: center;
+        background-color: azure;
+    }
+    td{
+        width: 200px;
+    }
+    h2, h3{
+        font-family: 'Lobster', cursive; 
+        text-align: center;
+        color: rgb(2, 100, 104);
+    }
+    h4{
+        font-family: 'Lobster', cursive;
+        color: rgb(2, 100, 104);
+        margin-left: 55px;
+    }
+    span{
+        color: rgb(2, 100, 104);
+        text-align: center;
+    }
+    div#principal{                
+        text-align: center;
+        float:left;
+        background-color:#ccf8f8;
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+        width: 450px;
+        height:800px;
+    }
+    div#lateral{
+        float:left;
+        background-color:#ccf8f8;
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+        width: 500px;
+        height:800px;                
+    }
+    div#tabela{                            
+        background-color:hsl(180, 90%, 81%);
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+        width: auto;
+        height:250px;
+        clear: left;
+    }
+    div#rodape{
+        margin: 10px 5px 5px 10px;
+        width: auto;
+        background-color: rgba(34, 195, 236, 0.473);
+        text-align: center;
+        padding: 5px;                
+    }
+    div#cabecalho{                
+        font-family: 'Dancing Script', cursiva;
+        font-size: 30px;
+        color:#ffff;
+        background-color:rgb(26, 145, 153);
+        text-align: center;
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+        width: auto;
+        height:200;
+    } 
+} 
+/*Para dispositivos moveis*/
+@media screen and (max-width: 575px)
+{
+    table,th,td{
+        border: 1px  solid rgb(2, 100, 104);
+        border-collapse: collapse;
+        text-align: center;
+        background-color: azure;
+    }
+    td{
+        width: 200px;
+    }
+    h2, h3{
+        font-family: 'Lobster', cursive; 
+        text-align: center;
+        color: rgb(2, 100, 104);
+    }
+    h4{
+        font-family: 'Lobster', cursive;
+        color: rgb(2, 100, 104);
+        margin-left: 55px;
+    }
+    span{
+        color: rgb(2, 100, 104);
+        text-align: center;
+    }
+    div#principal{                
+        text-align: center;
+        background-color:#ccf8f8;
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+    }
+    div#lateral{
+        background-color:#ccf8f8;
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+    }
+    div#tabela{                            
+        background-color:hsl(180, 85%, 68%);
+        margin: 5px 5px 5px 10px;
+        padding: 5px;                    
+    }
+    div#rodape{
+        margin: 5px 5px 5px 10px;
+        background-color: rgba(34, 195, 236, 0.473);
+        text-align: center;
+        padding: 5px;                
+    }
+    div#cabecalho{                
+        font-family: 'Dancing Script', cursiva;
+        font-size: 30px;
+        color:#ffff;
+        background-color:rgb(26, 145, 153);
+        text-align: center;
+        margin: 5px 5px 5px 10px;
+        padding: 5px;
+       
+        
+    } 
+}
